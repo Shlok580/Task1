@@ -44,6 +44,75 @@
     font-weight: 700;
 }
 
+.desc{
+    letter-spacing: 0.1em;
+    font-family: montserrat;
+    font-weight: 500, 700;
+    font-size: 14px;
+}
+
+.product_type{
+    letter-spacing: 0.25em;
+    font-family: montserrat;
+    font-weight: 500, 700;
+    font-size: 14px;
+}
+
+.product_name{
+    font-family: fraunces;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.pricebox{
+    display: flex; 
+    margin: 30px; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 2rem;
+}
+
+.discounted_price{
+    font-size: 28px; 
+    margin: 0; 
+    display: inline; 
+    color: olivedrab;
+    font-family: fraunces;
+    font-weight: 700;
+}
+
+.original_price{
+    margin: 0; 
+    display: inline; 
+    font-weight: 350; 
+    text-decoration: line-through;
+    font-family: montserrat;
+    font-weight: 500, 700;
+    font-size: 14px;
+}
+
+.button{
+    display: flex; 
+    margin: 30px; 
+    border-radius: 25px; 
+    height:35px; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: darkolivegreen; 
+    color:white"
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: montserrat;
+    font-weight: 500, 700;
+}
+
+.button:hover{
+    background-color: rgba(140,160,75);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
 @font-face {
     font-family: montserrat;
     src: url(Montserrat-VariableFont_wght.ttf);
