@@ -11,23 +11,26 @@
 }
 
 .text {
-    background-color: beige;
-    height: 400px;
-    width: 300px;
-    aspect-ratio: 3 / 4;
-    padding: 1vh;
+    background-color: white;
+    height: 430px;
+    width: 270px;
+    box-sizing: border-box;
+    /* margin: 10px; */
+    padding: 25px;
+    align-content: center;
+    /* padding: 10px; */
 }
 
 .image {
     background-color: greenyellow;
-    height: 400px;
-    width: 300px;
+    height: 430px;
+    width: 270px;
     aspect-ratio: 3 / 4;
 }
 
 .image img {
-    height: 400px;
-    width: 300px;
+    height: 430px;
+    width: 270px;
 }
 
 .p1{
