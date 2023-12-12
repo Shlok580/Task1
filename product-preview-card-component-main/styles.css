@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    place-content: center;
+    flex-direction: row;
+    height: 100vh;
+    gap: 1rem;
+    /* margin: 1px; */
+    align-items: center;
+    justify-content: center;
+    background: #f3ebe4;
+
+}
+
+.text {
+    background-color: beige;
+    height: 20vw;
+    width: 20vw;
+}
+
+.image {
+    background-color: greenyellow;
+    height: 20vw;
+    width: 20vw;
+}
+
+img {
+    display: block;
+    object-fit: contain;
+}
