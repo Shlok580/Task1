@@ -1,9 +1,8 @@
 .wrapper {
     display: flex;
-    place-content: center;
     flex-direction: row;
     height: 100vh;
-    gap: 1rem;
+    /* gap: 1rem; */
     /* margin: 1px; */
     align-items: center;
     justify-content: center;
@@ -13,17 +12,41 @@
 
 .text {
     background-color: beige;
-    height: 20vw;
-    width: 20vw;
+    height: 400px;
+    width: 300px;
+    aspect-ratio: 3 / 4;
+    padding: 1vh;
 }
 
 .image {
     background-color: greenyellow;
-    height: 20vw;
-    width: 20vw;
+    height: 400px;
+    width: 300px;
+    aspect-ratio: 3 / 4;
 }
 
-img {
-    display: block;
-    object-fit: contain;
+.image img {
+    height: 400px;
+    width: 300px;
 }
+
+.p1{
+    font-family: montserrat;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.p2{
+    font-family: fraunces;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+  }
+
+@font-face {
+    font-family: fraunces;
+    src: url(Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+  }
